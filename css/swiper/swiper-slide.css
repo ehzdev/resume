@@ -1,0 +1,48 @@
+@charset "utf-8";
+@import url('../../../../css2-1');
+@import url('../../../../css2-2');
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  height: 100%;
+  text-align: center;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: move;
+  transform: scale(1);
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.swiper-slide img:hover {
+  transform: scale(1);
+}
+
+ .swiper-container {
+  width: 100%;
+  height: 100%;
+
+}
